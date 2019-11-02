@@ -1,4 +1,3 @@
-import namespaced from './namespaced'
 // 全局组件 promptMessage的状态
 const state = function () {
   return {
@@ -31,7 +30,7 @@ const mutations = {
     state.waitting = flag
   }
 }
-
+const namespaced = true
 export {
   state,
   namespaced,
