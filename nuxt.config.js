@@ -78,4 +78,11 @@ export default {
     port: 3000, // default: 3000
     host: '0.0.0.0' // default: localhost
   }
+  // 服务端渲染的开发模式需要使用如下配置
+  /* watchers: {
+    webpack: {
+      aggregateTimeout: 300,
+      poll: 1000
+    }
+  } */
 }
