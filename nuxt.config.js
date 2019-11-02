@@ -1,7 +1,7 @@
 
 const env = require('dotenv').config()
 export default {
-  mode: 'spa',
+  mode: 'spa', // universal
   env: env.parsed,
   /*
   ** Headers of the page
